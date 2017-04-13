@@ -93,7 +93,7 @@ main div {
 	text-align:center;
 }
 
-.sous_menu > div{
+.sous_menu > div, form div{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
