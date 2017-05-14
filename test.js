@@ -11,6 +11,9 @@ var sections = document.getElementsByTagName('section');
 	} else if(bouton[i] == bouton[1]){
 		sections[0].classList.add('hidden');
 		sections[2].classList.remove('hidden');
+	} else if(bouton[i] == bouton[2]){
+		sections[1].classList.add('hidden');
+		sections[0].classList.remove('hidden');
 	}
 }
 
